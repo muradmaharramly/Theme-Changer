@@ -6,7 +6,7 @@ This project is created to develop a simple website Theme changer. The project i
 
 1. Clone or download the project:
 
-git clone https://github.com/muradmaharramly/Theme-changer.git
+git clone https://github.com/muradmaharramly/Theme-Changer.git
 
 2. Run the project on a local server or any web server.
 
