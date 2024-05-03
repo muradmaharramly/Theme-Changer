@@ -10,26 +10,26 @@ let count=2;
 theme.addEventListener("click",function(){
     count++;
     if (count%2==0){
-        background.style.backgroundColor="white";
-        theme.style.backgroundColor="black";;
+        background.style.backgroundColor="#FFFFF0";
+        theme.style.backgroundColor="#333333 ";;
         icon.classList.remove("fa-sun-o");
         icon.classList.add("fa-moon-o");
-        theme.style.color="rgb(8, 136, 255)";
-        theme.style.border="3px solid rgb(8, 136, 255)";
-        logoBorder.style.border="3px solid rgb(8, 136, 255";
-        navBorder.style.borderBottom="3px solid rgb(8, 136, 255";
-        slideSpan.style.color="rgb(8, 136, 255)";
-        textContent.style.color="rgb(8, 136, 255)";
+        theme.style.color="#2E86AB";
+        theme.style.border="3px solid #2E86AB";
+        logoBorder.style.border="3px solid #2E86AB";
+        navBorder.style.borderBottom="3px solid #2E86AB";
+        slideSpan.style.color="#2E86AB";
+        textContent.style.color="#2E86AB";
     }else {
-        background.style.backgroundColor="black";
-        theme.style.backgroundColor="white";
+        background.style.backgroundColor="#333333 ";
+        theme.style.backgroundColor="#FFFFF0";
         icon.classList.remove("fa-moon-o");
         icon.classList.add("fa-sun-o");
-        theme.style.color="rgb(255, 196, 0)";
-        theme.style.border="3px solid rgb(255, 196, 0)";
-        logoBorder.style.border="3px solid rgb(255, 196, 0)";
-        navBorder.style.borderBottom="3px solid rgb(255, 196, 0)";
-        slideSpan.style.color="rgb(255, 196, 0)";
-        textContent.style.color="rgb(255, 196, 0)";
+        theme.style.color="#F4D03F";
+        theme.style.border="3px solid #F4D03F";
+        logoBorder.style.border="3px solid #F4D03F";
+        navBorder.style.borderBottom="3px solid #F4D03F";
+        slideSpan.style.color="#F4D03F";
+        textContent.style.color="#F4D03F";
     }
 });
