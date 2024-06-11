@@ -135,6 +135,9 @@ nav{
         display: block;
         text-align: left;
     }
+    .name{
+        display: none;
+    }
     .text-container{
         margin-top: 40%;
     }
